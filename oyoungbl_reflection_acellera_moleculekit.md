@@ -1,7 +1,5 @@
 # Reflection: acellera_moleculekit
 
-**Project facts:** 1,477 commits, 19 authors, 2019-03 to 2025-10. Pattern: steady. Longest gap: 2020-08 (1 month). Gaps of 3+ months: 0. Status: Active.
-
 ## Inactivity patterns
 This project was never inactive for long. Commits arrive in every year from 2019 to 2025, ranging from about 110 to 405 a year, with a peak in 2022 (405) and a stable level of roughly 140 to 190 since. The longest zero-commit stretch is a single month (Aug 2020), and there are no gaps of three months or more, so the project is steady rather than gappy.
 
