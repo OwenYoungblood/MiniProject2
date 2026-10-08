@@ -1,0 +1,438 @@
+pre/post;prj;commit;author;time;message
+pre;acellera_moleculekit;3a3ddef47423648a01168d9ac9697ebdf8c22821;Stefan Doerr <stefdoerr@gmail.com>;1587629779;"disable chain check if we are doing self-distances
+"
+pre;acellera_moleculekit;01677ae1f0dab9500b8b60a3c2f48e340c12a527;Stefan Doerr <stefdoerr@gmail.com>;1589195161;"fixed bug with passing arrays to MetricDistance. Added tests for all types of atom selections
+"
+pre;acellera_moleculekit;bee3f54ffe5bef72dfe6382e6b6d41633519e428;Alejandro Varela Rial <alejandrovarelarial@gmail.com>;1591254161;"Merge pull request #3 from Acellera/master
+
+updating fork"
+pre;acellera_moleculekit;75d587e6a0853119dcdc67a68cd8ce8ecbafd275;alejandrovr <alejandrovarelarial@gmail.com>;1591265151;"some additional tools
+"
+pre;acellera_moleculekit;2af6ab7c17347a4f6ae39aba4a3300b3d81ff83e;Stefan Doerr <stefdoerr@gmail.com>;1592491424;"blacken
+"
+pre;acellera_moleculekit;8f45093611710586ce2606b0c42f816d6ece929d;Stefan Doerr <stefdoerr@gmail.com>;1592491464;"bugfix for writing PDBs of Molecules with no box
+"
+pre;acellera_moleculekit;972e3e4c8c28d244ca0cad60c30575d7052722b9;Stefan Doerr <stefdoerr@gmail.com>;1594120806;"fix molecule conversion logic and centralized it all in SmallMol
+"
+pre;acellera_moleculekit;b598df573005a34d766348f936651c84465c6087;Stefan Doerr <stefdoerr@gmail.com>;1594121573;"clean up a bit the code
+"
+pre;acellera_moleculekit;0444d220390e2ec741f7535fd7e6ebea3a649c56;Stefan Doerr <stefdoerr@gmail.com>;1594128931;"fix minor bug
+"
+pre;acellera_moleculekit;1c6fae528895fcc1ae3021b2709a0da66b570a27;Stefan Doerr <stefdoerr@gmail.com>;1594717246;"fix issue with newer pandas
+"
+post;acellera_moleculekit;43db9fec1af0421923f12b5ab05ba0b1b3a34214;Stefan Doerr <stefdoerr@gmail.com>;1600153536;"delete temporary files
+"
+post;acellera_moleculekit;40ce0a97a84f9df410a4c98c1449906290ea2d02;PyeongKim <pyeongeunkim@gmail.com>;1600837688;"openbabel 3.1.1 now support large protein file. From openbable 3.1.1 pybel is included in openbabel (if use openbabel 2.3.x, there would be segmentation fault during reading large protein.mol2 files)
+"
+post;acellera_moleculekit;99bc39df408f1d60b5827c34e315ee3d808ccd4b;Stefan Doerr <stefdoerr@gmail.com>;1600844424;"updated the deps of moleculekit
+"
+post;acellera_moleculekit;155bb925a8a4ff075f8851b86202d2d584cfa4fb;Stefan Doerr <stefdoerr@gmail.com>;1600845410;"add conda-forge channel to install openbabel
+"
+post;acellera_moleculekit;0942d3dc1a9c42a9433a2ee8bb4c0eb23b313de9;Stefan Doerr <stefdoerr@gmail.com>;1600846746;"fix openbabel import
+"
+post;acellera_moleculekit;e69b8f99efdb37eea8cd4d98ecdc4f95896564fb;Stefan Doerr <stefdoerr@gmail.com>;1600849019;"added conda-forge for building
+"
+post;acellera_moleculekit;d01af14e102ff3e13097bd1cde34961e71483f2e;Stefan Doerr <stefdoerr@gmail.com>;1600861324;"update message for installing openbabel
+"
+post;acellera_moleculekit;42f66d0dd98012853b761414313473bf249256c3;Stefan Doerr <stefdoerr@gmail.com>;1601034490;"moved docker from HTMD to moleculekit
+"
+post;acellera_moleculekit;540a0af877893493380decd0050c2421bc2b4d1b;Stefan Doerr <stefdoerr@gmail.com>;1601035716;"avoid using natsort package
+"
+post;acellera_moleculekit;7af8edad296a05555041ce7c8988e9c934049493;Stefan Doerr <stefdoerr@gmail.com>;1601039309;"made test a bit more flexible
+"
+pre;druid-io_pydruid;36f41dc4c06775e5275b59a1df510a74ef144c96;Deep Ganguli <deep.ganguli@gmail.com>;1397506053;"Merge pull request #10 from metamx/use-relative-paths
+
+substituting relative paths for local paths"
+pre;druid-io_pydruid;602cc04ca4e527203b34790cbe16f49817ecb4cb;KenjiTakahashi <wozniakk@gmail.com>;1408288090;"queryType 'select'
+"
+pre;druid-io_pydruid;090eb032884a3652affaeeb18f6ea40cc66f6db9;Davide Anastasia <davide@blismedia.com>;1408711726;"Add support for HyperUnique aggregator
+"
+pre;druid-io_pydruid;b2374bc33af8a8ad29540931b145e223ed182620;xvrl <xl+github@xvrl.net>;1409790504;"Merge pull request #12 from davideanastasia/hyperunique
+
+Add support for HyperUnique aggregator"
+pre;druid-io_pydruid;52ff51433270343e8edd9d94811eb8999dfbc7d8;fjy <fangjinyang@gmail.com>;1410204496;"Merge pull request #13 from whitehats/new_query_types
+
+queryType: select"
+pre;druid-io_pydruid;92275bf64d7c3f0b4cbfb6179ecd9cf5bfa0b5d7;Sean Violante <sean.violante@gmail.com>;1410535875;"added having clause to groupby queries
+"
+pre;druid-io_pydruid;4226a66c47242348113a2882bf8090ec5e3723e5;Sean Violante <sean.violante@gmail.com>;1410640051;"fixed aggregation equalTo and simplified and or nesting
+"
+pre;druid-io_pydruid;93b65bea3c1e592e94d649a97fc1a60557091f31;Sean Violante <sean.violante@gmail.com>;1410798955;"report druid error
+"
+pre;druid-io_pydruid;f959c70f849b7103258ac4000a4038642caba078;fjy <fangjinyang@gmail.com>;1410812126;"Merge pull request #14 from seanv507/having
+
+Having"
+pre;druid-io_pydruid;a71e90be43e976341b8dc6d9ccd0c0ce34a91d5f;fjy <fangjinyang@gmail.com>;1410812135;"Merge pull request #15 from seanv507/druid_error_output
+
+report druid error"
+post;druid-io_pydruid;f2d1a24e24a81286973975356c14f7f40a0d667b;Daniel O'Connell <d.oconnell@clearcode.cc>;1425981137;"Allow the setting of context properties in queries
+"
+post;druid-io_pydruid;f205e5b2de87de0fb3f0091a7cd3a88c4cbfe74b;Fangjin Yang <fangjinyang@gmail.com>;1426175472;"Merge pull request #17 from mruwnik/allow_setting_of_context_options
+
+Allow the setting of context properties in queries"
+post;druid-io_pydruid;28eeae465c22b4362dad3e77c8fcc21833b25407;Joel Griffith <joel@joel-griffith.com>;1432330632;"Add support for Python 3
+"
+post;druid-io_pydruid;08011ea9c200b19f315bb2d732b0995a0d8183b4;Xavier Léauté <xl+github@xvrl.net>;1434086262;"Merge pull request #18 from griffy/master
+
+Add support for Python 3"
+post;druid-io_pydruid;faccbc00dac4cd3e9da1b27febb69d0f21e28f40;Gilad Raphaelli <g@raphaelli.com>;1434396634;"make simplejson optional, except on python < 2.6
+"
+post;druid-io_pydruid;310dd7057be8d5cc1af9c54a508ebfa060161a09;Gilad Raphaelli <g@raphaelli.com>;1434583740;add missing sys import
+post;druid-io_pydruid;3b93c01268737dcde137afceb4429df0e62b6b3a;Charles Allen <charles@allen-net.com>;1435021044;"Merge pull request #19 from graphaelli/simplejson-optional
+
+make simplejson optional, except on python < 2.6"
+post;druid-io_pydruid;d8e39c23d10c06cae63b3826380882a42d1c5319;Gilad Raphaelli <g@raphaelli.com>;1435021086;"Merge 310dd7057be8d5cc1af9c54a508ebfa060161a09 into 3b93c01268737dcde137afceb4429df0e62b6b3a
+"
+post;druid-io_pydruid;97397d3ca84e1f9903752f04c06ad0375d5767c1;Maxime <maxime.beauchemin@airbnb.com>;1435591727;"Adding limitSpec support to groupby query
+"
+post;druid-io_pydruid;616a93e81488503967501ae6b799ec7f0b113005;Joel Griffith <joel@joel-griffith.com>;1435627000;"Fix regressions introduced by support for Python 3 and add initial test coverage
+"
+pre;florianhartig_dharma;687bd47b0e243083beb6866c7c1211471df5a09b;Florian Hartig <florianhartig@users.noreply.github.com>;1423583033;"Initial commit
+"
+pre;florianhartig_dharma;c978753386129e2a61da693f326de0be9fe6ca8e;Florian Hartig <florianhartig@users.noreply.github.com>;1423583298;"checkin
+"
+post;florianhartig_dharma;3bcb7fd991f77afe13d578b36efef4b7087ac463;Florian Hartig <florianhartig@users.noreply.github.com>;1465822583;"package created
+"
+post;florianhartig_dharma;493fc1df4d758d747ab844abb1927f90f3776775;Florian Hartig <florianhartig@users.noreply.github.com>;1465827279;"package functions added
+"
+post;florianhartig_dharma;6e7b5db516ece90006e26cc2468224c14914be32;Florian Hartig <florianhartig@users.noreply.github.com>;1465840261;"updates
+
+in particular fixed simulations for integer distributions
+"
+post;florianhartig_dharma;487ad66c9cd9b42291a0f1053cc06879b2983ce5;Florian Hartig <florianhartig@users.noreply.github.com>;1465840780;"updated package description
+"
+post;florianhartig_dharma;c9e3daf9bc93e9ce8f6787c1485bd2e5fcb3c168;Florian Hartig <florianhartig@users.noreply.github.com>;1465856162;"create data update
+"
+post;florianhartig_dharma;14708cacbce408f072f9f569fcd7dbe40e8b84b2;Florian Hartig <florianhartig@users.noreply.github.com>;1465856171;"help and vignette update
+"
+post;florianhartig_dharma;306456e32da015ee7809efb36b4283997b544929;Florian Hartig <florianhartig@users.noreply.github.com>;1465935765;"various smaller updates
+"
+post;florianhartig_dharma;7e2b91f774d4fa8c830775867ea8c964bb61dfe7;Florian Hartig <florianhartig@users.noreply.github.com>;1465939551;"minor updates
+"
+post;florianhartig_dharma;f08871eafd185fd660805b03292f1424c7bdd307;Florian Hartig <florianhartig@users.noreply.github.com>;1466113070;"Updates
+
+- Bugfixes
+- Test
+- Support for LM and GLM
+"
+post;florianhartig_dharma;e85afdcbaac63147ae70c858824ce2e12325e497;Florian Hartig <florianhartig@users.noreply.github.com>;1466190008;"bugFix
+"
+pre;jalammar_ecco;1bc326d61fc97fc50837e9d1ea959b56758941c0;Jay <alammar@gmail.com>;1641762678;"- Bump version number
+"
+pre;jalammar_ecco;b62781eaffb7577828d908b370a3a3714a02a116;Jay <alammar@gmail.com>;1641764547;"- Update BART settings
+"
+pre;jalammar_ecco;17bebb3361a075172d35178bfaa0e6ebed37b07f;Jay <alammar@gmail.com>;1641765354;"- Update BART settings
+"
+pre;jalammar_ecco;58620b3285d168b236a9083d28e1e33966bfbb85;Jay <alammar@gmail.com>;1641765982;"- Update BART settings
+"
+pre;jalammar_ecco;439a965856e3343b4e47ed34c6f11391808904c2;Jay Alammar <alammar@gmail.com>;1641977780;Update readme.md
+pre;jalammar_ecco;0968c9f1140496bea950899b5592b0db219030ba;Jay Alammar <alammar@gmail.com>;1641978022;Update readme.md examples.ipynb
+pre;jalammar_ecco;a1ddd257ecd75b4509a29eecd6e2e68dae537a66;chongcht <chongcht@hotmail.com>;1641988299;"Update model-config.yaml
+
+Added support of PEGASUS model
+"
+pre;jalammar_ecco;fbc5ea99e10029cc91d9ab74aba2cf731631380d;chongcht <chongcht@hotmail.com>;1642419859;"Update model-config.yaml
+
+added all pegasus downstream models
+"
+pre;jalammar_ecco;0ef61c51b76c48cd8c21c7807c20510565f307de;Jay Alammar <alammar@gmail.com>;1642493149;"Merge pull request #63 from thomas-chong/main
+
+Add support for PEGASUS model"
+pre;jalammar_ecco;52e549a449e9a3c7d9e0749ac6d1c31c4e035be2;farhanferoz <farhan.feroz@gmail.com>;1648399672;"Update __init__.py
+"
+post;jalammar_ecco;48f021fc70c150bbcaabe4f94f34dfbf64ea9079;LeonardRanaldi <57565268+LeonardRanaldi@users.noreply.github.com>;1685890755;"Update model-config.yaml
+
+LLaMA configuration"
+post;jalammar_ecco;75779f42cbac369c10f1bd36a98bf1281cdb16f8;Nathan Summers <rock@gimp.org>;1689372621;"Updated dependencies (no changes needed)
+"
+post;jalammar_ecco;aab5b7daf6c9df7cd8d1a77d56a2a64706e5370c;Jack BAI <60613238+BiEchi@users.noreply.github.com>;1690000268;"Update lm.py to suit OPT-like models
+
+Some newer models like OPT treat embedding layers as a separate layer 'Embedding' instead of pure tensor."
+post;jalammar_ecco;b2b48dd42aa91a1259ab731e82c77606fd87c4e3;Jack BAI <60613238+BiEchi@users.noreply.github.com>;1690007464;"Update lm.py: a cleaner way of finding the embedding layer in the model
+
+fixed a [FIXME], see code for details."
+post;jalammar_ecco;f8ccbf4a193e46d58821769c5dae2f041fc7cfd1;Jack BAI <60613238+BiEchi@users.noreply.github.com>;1690007555;Update lm.py: some prints and support for OPT
+post;jalammar_ecco;47740ee343d2c8ea38afeadeab0bf21734968d26;Jay Alammar <alammar@gmail.com>;1690470160;"Update build_and_test.yml
+
+Hard-pinning to ubuntu-20.04 to fix failing CI deployment (https://github.com/actions/setup-python/issues/544)"
+post;jalammar_ecco;4af19a29a549d7798445d314a82ab96507d3ccb0;HAO BAI <haob2@dt-login01.delta.ncsa.illinois.edu>;1690891314;"add fp16 support
+"
+post;jalammar_ecco;ca0aa604cb286a82ff46dd7df9085229c3d554cd;HAO BAI <haob2@dt-login01.delta.ncsa.illinois.edu>;1690891616;"tmep
+"
+post;jalammar_ecco;0750ce5ccfc4048e0f0316427d601c51539ffc3f;Jack BAI <60613238+BiEchi@users.noreply.github.com>;1690891717;"Merge ca0aa604cb286a82ff46dd7df9085229c3d554cd into 47740ee343d2c8ea38afeadeab0bf21734968d26
+"
+post;jalammar_ecco;1913fc1af151a6ce718484e324adfe3f6d17aca5;SSamDav <ssam_dav@hotmail.com>;1691614004;"Fix error when calling _prepare_decoder_input_ids_for_generation
+"
+pre;molssi_qcengine;2c45b8e2deff090115eda4ea81a8206a5e643113;Colton Hicks <github@coltonhicks.com>;1646941751;"Linted files and updated import ordering so linter passes again
+"
+pre;molssi_qcengine;f9e161f33ec4eab9544ff2c060125a4037b83ff2;David Dotson <dotsdl@gmail.com>;1647277043;"Merge pull request #352 from MolSSI/release-0.23.0
+
+Release v0.23.0 changelog update"
+pre;molssi_qcengine;2eefbd5d77c32ad820f4e109176f75606f54fc79;Colton Hicks <github@coltonhicks.com>;1647466927;"Linted files and updated import ordering so linter passes again (#354)
+
+"
+pre;molssi_qcengine;6f443e97b56be0f7eeb34a51b28aa67e0437d9b5;Lori A. Burns <lori.burns@gmail.com>;1647469389;Update psi.yaml
+pre;molssi_qcengine;b11ddf54050294b07ede4ea08bb5832a6edd2946;Lori A. Burns <lori.burns@gmail.com>;1647469436;Update opt-disp.yaml
+pre;molssi_qcengine;2294974efea53cf27445cc021dc069724412e79f;Lori A. Burns <lori.burns@gmail.com>;1647477007;Update CI.yml
+pre;molssi_qcengine;0b073d47210c108507fa6a151089245e92cfa3c2;Lori A. Burns <lori.burns@gmail.com>;1647478307;Update CI.yml
+pre;molssi_qcengine;80320cd93b8bed6b02312b0fd7fb835f58331fc2;Lori A. Burns <lori.burns@gmail.com>;1647480783;Update docs-cf.yaml
+pre;molssi_qcengine;c171e80c51afc5bc08ac8a84971b526fd33671d3;Lori A. Burns <lori.burns@gmail.com>;1647481769;"fix CI (#356)
+
+* Update psi.yaml
+
+* Update opt-disp.yaml
+
+* Update CI.yml
+
+* Update CI.yml
+
+* Update docs-cf.yaml"
+pre;molssi_qcengine;3e0817f5c9ce546185388c0e0147baabd9e08fc5;loriab <lori.burns@gmail.com>;1647482631;"Deploying to gh-pages from @ MolSSI/QCEngine@c171e80c51afc5bc08ac8a84971b526fd33671d3 🚀
+"
+post;molssi_qcengine;ae8ab3f6a20b2d1e45df3e514bd0f28eecc9c9d5;Lori A. Burns <lori.burns@gmail.com>;1654831286;"stdsuite: add HF Hessian refs, density-fitted
+"
+post;molssi_qcengine;88fbb89b945ba2e41bdded2a0481bc126f047493;Lori A. Burns <lori.burns@gmail.com>;1654833452;"tweak psi envs after v1.6 rel
+"
+post;molssi_qcengine;b72db317af2050ec191f91f8bf7c9cb335391557;Lori A. Burns <lori.burns@gmail.com>;1654833452;"tweak psi envs after v1.6 rel
+"
+post;molssi_qcengine;76e0bde3018e96db41a24f74a836d0e79b02fa45;Lori A. Burns <lori.burns@gmail.com>;1654835879;"envs
+"
+post;molssi_qcengine;c0346fd7eb332a949ecacc2421daf8124bc28269;Lori A. Burns <lori.burns@gmail.com>;1654835879;"envs
+"
+post;molssi_qcengine;4d661a9f9d8a33b4952ab547c8ccaad275368e1d;Lori A. Burns <lori.burns@gmail.com>;1654838364;"emv
+"
+post;molssi_qcengine;4e564c8a64edfd64cd8206d0f0daa02dbe85421c;Lori A. Burns <lori.burns@gmail.com>;1654838364;"emv
+"
+post;molssi_qcengine;b285695774473c3c4c67600f1af7e3b07d749667;Lori A. Burns <lori.burns@gmail.com>;1654839189;"older d4
+"
+post;molssi_qcengine;46659e18d6423e9589b3a2264ee260c4b124e1db;Lori A. Burns <lori.burns@gmail.com>;1654840370;"noncontrived?
+"
+post;molssi_qcengine;5a5d8412db7625451e71cc4dc3908df63ae2c14a;Lori A. Burns <lori.burns@gmail.com>;1654840370;"noncontrived?
+"
+pre;nwfsc-cb_ocnms;891c4a851a15677ac581a7c9d24aafaa1fbd60d2;Nick Tolimieri <nick.tolimieri@noaa.gov>;1672859403;"fixed some plots
+"
+pre;nwfsc-cb_ocnms;520086b382321d38b2178449adf6daa6638e37e6;OleShelton <ole.shelton@noaa.gov>;1674058832;"updates black rockfish
+"
+pre;nwfsc-cb_ocnms;7d2ebe2485fc7e9519175cce3ca4c7c0db64ae41;OleShelton <ole.shelton@noaa.gov>;1674065215;"start length structure
+"
+pre;nwfsc-cb_ocnms;0c109ffee7c7f45b3b3bb9812b0a634be5a2ed1f;OleShelton <ole.shelton@noaa.gov>;1674065245;"Merge branch 'master' of https://github.com/nwfsc-cb/OCNMS
+
+# Conflicts:
+#	R scripts/2022-23 Black Rockfish Assessment/Process Length Structure.R
+"
+pre;nwfsc-cb_ocnms;81ab853baf5bc94a39fcb6f93fdc9f9f770d4aeb;OleShelton <ole.shelton@noaa.gov>;1674146701;"update black rockfish description.
+"
+pre;nwfsc-cb_ocnms;f047a6ed7675f22691f8c1c776e7263cda0ba83a;OleShelton <ole.shelton@noaa.gov>;1674146825;"update 2022 data.
+"
+pre;nwfsc-cb_ocnms;4591a70c3e69bb1fb555e3313a731b19d1d6a074;OleShelton <ole.shelton@noaa.gov>;1674161490;"commit black rockfish data and scripts
+"
+pre;nwfsc-cb_ocnms;0e3612d8a515ec4dd7f7b392e87f0a2844d05610;OleShelton <ole.shelton@noaa.gov>;1674508671;"update kelp description for plotting
+"
+pre;nwfsc-cb_ocnms;6d508f6efe3dbe858c580f24084ee5d58a0f5ad4;OleShelton <ole.shelton@noaa.gov>;1674515830;"Fix black rockfish rmd
+"
+pre;nwfsc-cb_ocnms;b7d7362e32199dac8dbe0012568bfceb8f5bdea6;Nick Tolimieri <nick.tolimieri@noaa.gov>;1677601927;"updates
+"
+post;nwfsc-cb_ocnms;a4554ac7b557610961793c9957434bbc44a5ffce;OleShelton <ole.shelton@noaa.gov>;1721673359;"update to 2023 data.
+"
+post;nwfsc-cb_ocnms;a3bab1f88e59a48d82ab4d1aad6e06091fe07f06;Nick Tolimieri <nick.tolimieri@noaa.gov>;1729699151;"NT adding annual update file
+
+Beginning to create one location for all code that is necessary to (1) process raw data into counts per transect, including algae expansion, and (2) reproduce figures from Tolimieri et al 2023.
+
+Move species codes into xlsx files to automatically update instead of having to manually update separate files each year.
+"
+post;nwfsc-cb_ocnms;6d78feb8e94f93bdf2efb1342f0c98a68b715a8d;Nick Tolimieri <nick.tolimieri@noaa.gov>;1729699166;"Merge branch 'flagstone' of https://github.com/nwfsc-cb/OCNMS into flagstone
+"
+post;nwfsc-cb_ocnms;00a981cbd61fe7e318a3afee58ab02787f864990;Nick Tolimieri <nick.tolimieri@noaa.gov>;1729704027;"Finished initial complete update.
+
+Files should now run annual update. Have not updated the multivariate file yet.
+"
+post;nwfsc-cb_ocnms;6223a66992c767f5d3222ea306f2c448d359911a;Nick Tolimieri <nick.tolimieri@noaa.gov>;1729728439;"fixing some csv problems
+"
+post;nwfsc-cb_ocnms;ced40fb43923b1a8690cabf9ce156272e2896bc9;Nick Tolimieri <nick.tolimieri@noaa.gov>;1729790503;"Final update of 2024 data, I think.
+"
+post;nwfsc-cb_ocnms;e92d071e0bcc6a52928921867843f747c8344965;Nick Tolimieri <nick.tolimieri@noaa.gov>;1730230439;"update urchin size
+"
+post;nwfsc-cb_ocnms;ee6ceaa15083c4a46757a5a1819150ac386d6368;Nick Tolimieri <nick.tolimieri@noaa.gov>;1730241333;"couple new plots
+"
+post;nwfsc-cb_ocnms;a801d73e29e80980d6f144546279e3459cd08e54;Nick Tolimieri <nick.tolimieri@noaa.gov>;1730243792;"urchins vs kelp at tatoosh
+"
+post;nwfsc-cb_ocnms;6bd634cfda60bfb78315654fb8a8fe9798fb8bdd;Nick Tolimieri <nick.tolimieri@noaa.gov>;1730413664;"Updating figures for talk
+"
+pre;projectchrono_chrono;45fbebb9316383bb2b99a17a847ad1c2f57ada35;Alessandro Tasora <tasora@ied.unipr.it>;1272726932;"
+"
+pre;projectchrono_chrono;b55ddae8c6eb80a8d785e1ae1f582618c55e26a7;Alessandro Tasora <tasora@ied.unipr.it>;1272726932;"
+"
+pre;projectchrono_chrono;4ae5e586ccecd6f903ec49bca9dd18f0b212ca9f;Alessandro Tasora <tasora@ied.unipr.it>;1273215883;"
+"
+pre;projectchrono_chrono;c247a61c46a186f864f368a2bed20cb562ac9062;Alessandro Tasora <tasora@ied.unipr.it>;1273215883;"
+"
+pre;projectchrono_chrono;150f1b3056862f8698660bc37c107b0cff407419;Alessandro Tasora <tasora@ied.unipr.it>;1274269941;"
+"
+pre;projectchrono_chrono;cb1e63306e3b3b418b9af2f543f7e380edd88e4b;Alessandro Tasora <tasora@ied.unipr.it>;1274269941;"
+"
+pre;projectchrono_chrono;205abe820603f867de61c44b7cef7c99ad60b144;Hammad Mazhar <hammad.maz@gmail.com>;1274271832;"in makefile: """" around file paths with spaces
+"
+pre;projectchrono_chrono;830b2971717d111dff04a04169b586075c2e1cd1;Hammad Mazhar <hammad.maz@gmail.com>;1274271832;"in makefile: """" around file paths with spaces
+"
+pre;projectchrono_chrono;b2f2db53ec0a1a580006ae1650ecca800ec600c5;Hammad Mazhar <hammad.maz@gmail.com>;1274360392;"
+"
+pre;projectchrono_chrono;d9ff82c1131d1bda78ac0c54a82338a78fb3b53c;Hammad Mazhar <hammad.maz@gmail.com>;1274360392;"
+"
+post;projectchrono_chrono;bf2ae4a09c07cd6a3606a22f70b720802ec1c1a9;UW SBEL <uwsbel@gmail.com>;1278633246;"
+
+"
+post;projectchrono_chrono;ebe1d472c8bdcf8c711bc9e124ba1855c3d51ed5;UW SBEL <uwsbel@gmail.com>;1278633246;"
+
+"
+post;projectchrono_chrono;148e62ad416d817c249487f89e08283846c56e35;Alessandro Tasora <tasora@ied.unipr.it>;1278694375;"
+"
+post;projectchrono_chrono;af904481e382594d279145e4155f4ae9875097f3;Alessandro Tasora <tasora@ied.unipr.it>;1278694375;"
+"
+post;projectchrono_chrono;18a309743bc728234967412df236058eff453c13;Alessandro Tasora <tasora@ied.unipr.it>;1281120191;"restitution coefficient enabled
+"
+post;projectchrono_chrono;6b41c20373176497790235cc73865753453e987d;Alessandro Tasora <tasora@ied.unipr.it>;1281120191;"restitution coefficient enabled
+"
+post;projectchrono_chrono;15f2cd25da3f02370f91f7bf82f3b84465602177;UW SBEL <uwsbel@gmail.com>;1281158048;"
+"
+post;projectchrono_chrono;d87835ce1bf1f1092fac327f31bf33890eb8b289;UW SBEL <uwsbel@gmail.com>;1281158048;"
+"
+post;projectchrono_chrono;42c2cb57121d092a6326afd3460ade829b7a7d4b;Alessandro Tasora <tasora@ied.unipr.it>;1283371148;"Javascript stuff separated. But not tested under Linux yet!
+"
+post;projectchrono_chrono;4acd78bd43ddb4ba868342751272a4625ebed6ba;Alessandro Tasora <tasora@ied.unipr.it>;1283371148;"Javascript stuff separated. But not tested under Linux yet!
+"
+pre;pyscf_pyscf;cbbd67c06dceb01bdba25920c99325c6792d9ceb;Qiming Sun <osirpt.sun@gmail.com>;1404415600;"change imports layout
+"
+pre;pyscf_pyscf;d2debd1779553e445f2789f57ff9ba34cb9b2511;Qiming Sun <osirpt.sun@gmail.com>;1404416981;"add __init__ for pyscf
+"
+pre;pyscf_pyscf;d40eac1b055f4ea25f8def5a9a9cb3a14ff98309;Qiming Sun <osirpt.sun@gmail.com>;1404418270;"add more modules in __init__
+"
+pre;pyscf_pyscf;6b10e1098d7f6d99adbf5589dc04302656decaab;Qiming Sun <osirpt.sun@gmail.com>;1408286919;"add ""future"" module for upcoming functions
+
+* module ""future"" for upcoming functions
+* fix bug of AO to MO transformation in OpenMP environment
+"
+pre;pyscf_pyscf;17cd775ddb094a388e7e6a9a0f69b99d74a09a30;Qiming Sun <osirpt.sun@gmail.com>;1408312815;"new basis format and import method
+"
+pre;pyscf_pyscf;b9907727cc7f8b4531f7b4f5b91290ce8bb522f4;Qiming Sun <osirpt.sun@gmail.com>;1408555735;"add casscf
+"
+pre;pyscf_pyscf;2a1a1b795441d3d13891f04d7ea9c92254e0ecab;Qiming Sun <osirpt.sun@gmail.com>;1408556019;"add fcidump
+"
+pre;pyscf_pyscf;a39cb8560b905b1bc351371c033da640c2bdf939;Qiming Sun <osirpt.sun@gmail.com>;1408638743;"fix importing problem in _ao2mo.pyx
+"
+pre;pyscf_pyscf;fd1cb94560b0436a517c00bd15a35532c4408f17;Qiming Sun <osirpt.sun@gmail.com>;1408643585;"fix importing problem for mcscf
+"
+pre;pyscf_pyscf;4dad3f21d35ebf8895232de50c5ef8a896150d58;Qiming Sun <osirpt.sun@gmail.com>;1408643701;"add mcscf density matrix
+"
+post;pyscf_pyscf;2dca27cd1f322eb33f4c52955d20801dd059b8ce;Qiming Sun <osirpt.sun@gmail.com>;1412226107;"version 0.5 update dft, mcscf, etc.
+"
+post;pyscf_pyscf;b007ae7d2638ec67302753241c3cfe1c035ed4f8;Qiming Sun <osirpt.sun@gmail.com>;1412226203;"update version info in README
+"
+post;pyscf_pyscf;be00ccfb56cf744255306d10adb8aa15b3cd99a8;Qiming Sun <osirpt.sun@gmail.com>;1412257839;"fix bug in dhf.direct_scf
+"
+post;pyscf_pyscf;bd5edb3175eb030b6ba08048d2d0e0c8cf9d3bfa;Qiming Sun <osirpt.sun@gmail.com>;1413558564;"cmake externalproject_add libcint libxc
+"
+post;pyscf_pyscf;b3ed760b5ff56ea5b84380577cf3e3ea149d72d0;Qiming Sun <osirpt.sun@gmail.com>;1413560634;"use libxc-2.2
+"
+post;pyscf_pyscf;74fa92b7e81a2de0b40e96dd5eec5a0605c1e0f9;Qiming Sun <osirpt.sun@gmail.com>;1413570284;"add future/lo
+"
+post;pyscf_pyscf;c099e4e932bb2518336ad38622c66417804aac23;Qiming Sun <osirpt.sun@gmail.com>;1413571038;"change cmake layout
+"
+post;pyscf_pyscf;ca66b09a55ec6ba045344f6af8d27363b443f520;Qiming Sun <osirpt.sun@gmail.com>;1413759331;"fix bug and optimize code for dhf.rkb_coul_direct_scf
+"
+post;pyscf_pyscf;f686d65e1b9da51227944cc35b958831b00c6038;Qiming Sun <osirpt.sun@gmail.com>;1414159487;"fix memory leaks, update scf.hf API
+"
+post;pyscf_pyscf;8500d378f84fc75a10eee697c637045df97ccf16;Qiming Sun <osirpt.sun@gmail.com>;1414165739;"fix bug due to API updates
+"
+pre;radiomics_pyradiomics;6b6bbeae3242b1fab643391a5ab74d3b47586ad6;Joost van Griethuysen <joostjmvangriethuysen@yahoo.com>;1601464564;"ENH: Remove Python 2 support from notebooks in Dockerfile
+"
+pre;radiomics_pyradiomics;8bfbe86d5523ebd45837dfb94b79d7311e1b4942;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1601465358;"Merge pull request #644 from Radiomics/mr-2d-example
+
+DOCS: Add force2D setting to example settings"
+pre;radiomics_pyradiomics;cbb3cab6ee15e90677bedf6d932970878b751bbc;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1601468704;"Merge pull request #645 from Radiomics/docker
+
+Update Docker files"
+pre;radiomics_pyradiomics;9532c330b1570afbed201cb906c6d7e0f8301a6f;Joost van Griethuysen <joostjmvangriethuysen@yahoo.com>;1601469901;"ENH: Update Brew before installing gettext
+"
+pre;radiomics_pyradiomics;943756aae14fa56ede1fca31d4acb554d35c509a;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1601539108;"Merge pull request #646 from Radiomics/travis-ci-bug
+
+Travis CI Integration"
+pre;radiomics_pyradiomics;08bea7067e350303eead533b471aa60697b3b8c3;Joost van Griethuysen <joostjmvangriethuysen@yahoo.com>;1602409020;"v3.0.1 Release
+"
+pre;radiomics_pyradiomics;3064793b0dd7b83de9971f09beb597449f83107c;Joost van Griethuysen <joostjm@gmail.com>;1605615551;"BUG: Allow specification of full mask.
+
+If a mask contains only a single label, a ValueError is raised stating no labels are found in the mask. However, this error should only be raised if the only label found is '0'.
+"
+pre;radiomics_pyradiomics;9ccbec1449330c9eb4ea4a311518d74f266f1fc0;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1605633791;"Merge pull request #660 from Radiomics/issue-658
+
+BUG: Allow specification of full mask."
+pre;radiomics_pyradiomics;0c53d1dd41dc7e78ad22ae3e0aa90dbefa3ab770;Andrey Fedorov <andrey.fedorov@gmail.com>;1608043692;update the community link
+pre;radiomics_pyradiomics;ad5b2de5b42701c7d80f2579335b0f2b574d2fab;hugoaerts <hugoaerts@users.noreply.github.com>;1618406508;Update README.md
+post;radiomics_pyradiomics;d02d899bfdf35ac346c56ac3bd86e09091af3e2b;Theodore Aptekarev <aptekarev@gmail.com>;1633034345;"ENH: Expose pyradiomics-dcm mask correction settings in the CLI
+"
+post;radiomics_pyradiomics;b1a7613de99c472c1948076ff09fa9475666b543;Theodore Aptekarev <aptekarev@gmail.com>;1633034514;"DOCS: Update pyradiomics-dcm documentation
+"
+post;radiomics_pyradiomics;7fcae4c30c4d998a7b2d0bf8a1a85823d8273715;Theodore Aptekarev <aptekarev@gmail.com>;1633035897;"DOCS: Update changelog for the next release
+"
+post;radiomics_pyradiomics;c434ff77caf0604d9b2a55bdad781a9164ad8992;Theodore Aptekarev <aptekarev@gmail.com>;1633036202;"DOCS: Fix metavars in argparse help messages
+"
+post;radiomics_pyradiomics;dfe2c14054b6942422a080b0475aa2d093347ca3;Andrey Fedorov <andrey.fedorov@gmail.com>;1633053700;"Merge pull request #724 from piiq/feature/dcm-mask-correction
+
+Expose mask correction and geometry tolerance to the pyradiomics-dcm CLI"
+post;radiomics_pyradiomics;5eb407ac9cd9682e1df737b6b9600a3d7e3c90b5;Anthony Jatobá <anthony.jatoba@rdstation.com>;1637525219;"DOCS: Update notebooks directory in usage docs
+"
+post;radiomics_pyradiomics;03d23f7865f954ab61320b58e7bc4a83dc8b04fc;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1639481512;"Merge pull request #734 from anthonyjatoba/usage-docs
+
+DOCS: Update notebooks directory in usage docs"
+post;radiomics_pyradiomics;33f564907c484c4151a5b0052130b511cc91a036;wingkou <wingkou@outlook.com>;1641461896;"fix typos
+"
+post;radiomics_pyradiomics;2e0b76edefa60616c880ec0fbc54433ac03743db;Joost van Griethuysen <JoostJM@users.noreply.github.com>;1641820905;"Merge pull request #740 from lyhyl/master
+
+fix typos"
+post;radiomics_pyradiomics;c4553fd74b5150f1dbe136cc07950672524cf224;Joost van Griethuysen <joostjm@gmail.com>;1646738525;"ENH: Add Python 3.8 and 3.9 support
+"
+pre;skuschel_postpic;52018bb9b51cde3d948a2c633b400b2d4598e8a8;Alexander Blinne <alexander@blinne.net>;1619340882;"Merge 63c0786e36886b1782dbfb6641861c9424057f65 into 1e85be9ce42ff2cb4f4f7e63950ccc6ed89730cb
+"
+pre;skuschel_postpic;0b9e1bf59370df3699fc394b94c589c651ab74bd;Stephan Kuschel <stephan.kuschel@gmail.com>;1643046180;"update .gitignore
+"
+pre;skuschel_postpic;aa8d3b9a945eb223b76bf893dddb618a636a214b;Stephan Kuschel <stephan.kuschel@gmail.com>;1643047704;"matplotlib import workaround
+"
+pre;skuschel_postpic;f24ae294d0e38d4e536aa1b93d80a64177100082;Stephan Kuschel <stephan.kuschel@gmail.com>;1643099943;"test python version 3.9, drop 3.5
+"
+pre;skuschel_postpic;459915052a3faf31711a33ef97871f3c071eab4e;Stephan Kuschel <stephan.kuschel@gmail.com>;1643365716;"Merge pull request #266 from skuschel/dev
+
+update .gitignore and tests, matplotlib workaround"
+pre;skuschel_postpic;d749705301f12b3382036d993092637072477f86;Stephan Kuschel <stephan.kuschel@gmail.com>;1643366171;"Added an improved version of `time_profile_at_plane`
+
+should be much faster"
+pre;skuschel_postpic;0bbd078bf365d8a32604b52b15ebcb5da06c2261;Stephan Kuschel <stephan.kuschel@gmail.com>;1643366782;"Merge pull request #267 from skuschel/dev
+
+improved version of `time_profile_at_plane`"
+pre;skuschel_postpic;80e7cd4aa2a6942e80442827f8fcaeb6bd542150;Stephan Kuschel <stephan.kuschel@gmail.com>;1666869254;"fix flake8 rule E275
+"
+pre;skuschel_postpic;7bf660a3ab319846e5ea5a9b3fe231d411edd8f6;Stephan Kuschel <stephan.kuschel@gmail.com>;1666869312;"update .gitignore
+"
+pre;skuschel_postpic;93584e76d22b0834e3e9b213b5d5a45d53fb7fc1;Stephan Kuschel <stephan.kuschel@gmail.com>;1666869868;"Merge pull request #268 from skuschel/dev
+
+fix flake8 and update .gitignore"
+post;skuschel_postpic;2acb3066d8db1cbab0db77d51e33b15194ab7ca2;Stephan Kuschel <stephan.kuschel@gmail.com>;1695739735;"particles: update masslistelement
+"
+post;skuschel_postpic;742678669e39f29bac8ef89efb90d2bfad1e15bb;Stephan Kuschel <stephan.kuschel@gmail.com>;1695748700;"bugfix parse_version and import from packaging.version
+"
+post;skuschel_postpic;87059c19ee68b52538336effc8472a3664f6e3ab;Stephan Kuschel <stephan.kuschel@gmail.com>;1695748700;"bugfix parse_version and import from packaging.version
+"
+post;skuschel_postpic;77b899c905a90073dbd2ede57b75bd183044ab17;Stephan Kuschel <stephan.kuschel@gmail.com>;1695753664;"change from nose to nose2
+"
+post;skuschel_postpic;ca3f719b777839d5663d92ffe72255e374cb6c20;Stephan Kuschel <stephan.kuschel@gmail.com>;1695757946;"update CHANGELOG
+"
+post;skuschel_postpic;8081d29da5759135d9180202f5f27bd611e9e682;Stephan Kuschel <stephan.kuschel@gmail.com>;1695758052;"Merge pull request #270 from skuschel/vupdate
+
+version bump to v0.5
+last version to support python2"
+post;skuschel_postpic;f0a2d440e27a4e58bc8f7731c1c8bc6050fcb727;Stephan Kuschel <stephan.kuschel@gmail.com>;1700844719;"update versioneer
+"
+post;skuschel_postpic;13f811d50275558be052541b6a7c9caf29706794;Stephan Kuschel <stephan.kuschel@gmail.com>;1700845331;"update README.md
+"
+post;skuschel_postpic;967734e7841c1f54ff280582da4348fe077c55f5;Stephan Kuschel <stephan.kuschel@gmail.com>;1700846752;"update run-test.py to install in venv
+"
+post;skuschel_postpic;515eeb6886e165e250c3ffae66eb8aea6ce1bfb0;Stephan Kuschel <stephan.kuschel@gmail.com>;1700846777;"add skikit-image as optional requirement
+"
