@@ -1,0 +1,6 @@
+﻿Field;PercentAgree_Pre;PercentAgree_Post;CohenKappa_Pre;CohenKappa_Post;NumDisagreements;NumResolved;Notes
+HasRecovered;80.0;100.0;0.60;1.00;2;2;Disagreements were short gaps (2 and 1 months) the author counted as recoveries. Author left 3 no-gap projects blank, counted here as No. Post = 100% only because my values were adopted as consensus.
+WhyRecovered;60.0;100.0;NA;NA;4;4;Author gave theme labels, not before-to-after reasons (terminology mismatch). One bot theme was impossible for a 2005 gap. Post = 100% by adoption of my values, no live discussion.
+ActivityPattern;80.0;100.0;0.73;1.00;2;2;Disagreements were steady vs cyclical and irregular vs cyclical, both judgment calls from the plots. Post = 100% by adoption of my values.
+Currentstatus;100.0;100.0;1.00;1.00;0;0;Full agreement. Both used the GitHub last-commit date against the 2025-04-01 cutoff.
+RecentThemes;40.0;100.0;NA;NA;6;6;Most disagreements: the author defaulted to Other or bots while I read the last 10 commits. Window choice may also differ. Post = 100% by adoption of my values.
